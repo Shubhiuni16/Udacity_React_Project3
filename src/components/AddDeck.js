@@ -29,7 +29,7 @@ class AddDeck extends Component {
                    <TextInput value={this.state.inputText} onChangeText={this.handleChange} placeholder="NEW DECK TITLE" style={styles.input} />
                    <TouchableOpacity onPress={this.handleSubmit} style={styles.submitButton}>
                         <Text style={styles.submitButtonText}>Submit</Text>
-					</TouchableOpacity>
+		   </TouchableOpacity>
                </KeyboardAvoidingView>
            </View> 
         )
