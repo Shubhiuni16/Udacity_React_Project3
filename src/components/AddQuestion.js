@@ -38,9 +38,9 @@ class AddQuestion extends Component {
                    </View>
                    <TouchableHighlight onPress={()=>this.handleSubmit(deck.title)} style={styles.submitButton}>
                        <View>
-                        <Text style={styles.submitButtonText}>Submit</Text>
+                          <Text style={styles.submitButtonText}>Submit</Text>
                        </View>
-				   </TouchableHighlight>
+		   </TouchableHighlight>
                </KeyboardAvoidingView>
            </View> 
         )
